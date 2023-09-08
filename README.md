@@ -1,8 +1,9 @@
 # NodeJS script that find imports from barrel in each Typescript file
 ## Usage
 - `npm i`
-- `node barrel-finder <GLOBLIKE_PATH_TO_START> <GLOBLIKE_MASK_TO_IGNORE>`
-- Example `node barrel-finder ../libs/**/*.ts ../libs/**/*.index.ts`
+- `node barrel-finder "<GLOBLIKE_PATH_TO_START>" "<GLOBLIKE_MASK_TO_IGNORE>"`
+- Example `node barrel-finder "../libs/**/*.ts" "../libs/**/*.index.ts"`
+- Note! path should be wrapped into quotes
 
 ## Description
 Script will parse only typescript files, so you should provide path like this: `../../libs/**/*.ts` (glob-like path)
